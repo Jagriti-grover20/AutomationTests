@@ -1,0 +1,17 @@
+// Mutation to update the status of Github
+mutation NewStatus($input: ChangeUserStatusInput!){
+  changeUserStatus(input: $input){
+    clientMutationId
+    status{
+      message
+    }
+  }
+}
+query viewInfo{
+  viewer {
+    login
+    status{
+      message
+    }
+  }
+}
