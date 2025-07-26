@@ -1,5 +1,5 @@
 # GitHub API & Web Automation Testing 
-# This showcases hands-on automation testing using GitHub's public Web API and browser-based validations via Selenium WebDriver. 
+# Automation testing using GitHub's public Web API and browser-based validations via Selenium WebDriver. 
 
 ### REST API Testing using Java (GitHub APIs)
 -  Verified base URL `https://api.github.com` returns HTTP **200 OK**
